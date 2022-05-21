@@ -1,0 +1,54 @@
+.centre{
+    width: 400px;
+    height: 400px;
+    /*width: 50%;
+    height: 50%;*/
+    margin: auto;
+    background-color: rgb(228, 228, 228);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.arrow{
+    block-size: 13%;
+}
+
+.arrow:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#left_arrow{
+    transform: scaleX(-1);
+    /*화살표 이미지 좌우 반전*/
+}
+
+
+#looks{
+    width: 65%;
+    height: 90%;
+    position: relative;
+
+    background-color: rgb(114, 114, 114);
+}
+
+#looks img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+#centre2{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#centre2 img{
+    margin: 5% 5%;
+    width: 90%;
+}
