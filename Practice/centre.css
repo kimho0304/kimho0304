@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Rubik:wght@300&display=swap');
+
 .centre{
     width: 400px;
     height: 400px;
@@ -51,4 +53,24 @@
 #centre2 img{
     margin: 5% 5%;
     width: 90%;
+}
+
+#centre3{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#mp3_title{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(105, 105, 105);
+    font-weight: 1200;
+    font-size: 180%;
+}
+
+#mp3_img{
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
